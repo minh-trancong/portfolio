@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "homepage": "https://minh-trancong.github.io",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build" 
+}
